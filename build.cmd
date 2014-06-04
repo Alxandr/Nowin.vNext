@@ -1,6 +1,8 @@
 @echo off
 cd %~dp0
 
+echo %BUILD_NUMBER%
+
 SETLOCAL
 SET CACHED_NUGET=%LocalAppData%\NuGet\NuGet.exe
 
