@@ -8,7 +8,7 @@ init:
 test: off
 
 build_script:
-  - set BUILD_NUMBER=APPVEYOR_BUILD_NUMBER #temp
+  - set BUILD_NUMBER=%APPVEYOR_BUILD_NUMBER% #temp
   - build.cmd
 
 environment:
