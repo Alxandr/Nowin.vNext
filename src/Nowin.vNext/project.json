@@ -1,16 +1,16 @@
 {
-    "version": "0.1-alpha-*",
+    "version": "0.1-beta1-*",
     "authors": ["Alxandr"],
     "compilationOptions": {
         "warningsAsErrors": true
     },
     "dependencies": {
-        "Nowin": "0.11.0",
+        "Nowin": "0.12.1",
         "Microsoft.AspNet.Hosting": "1.0.0-*",
+        "Microsoft.AspNet.Http": "1.0.0-*",
         "Microsoft.AspNet.Owin": "1.0.0-*"
     },
-
-    "configurations": {
-      "net45": {}
+    "frameworks": {
+        "aspnet50": { }
     }
 }
